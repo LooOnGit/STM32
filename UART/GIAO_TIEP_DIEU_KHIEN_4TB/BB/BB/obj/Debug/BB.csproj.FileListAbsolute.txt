@@ -1,0 +1,11 @@
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\bin\BB.exe.config
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\bin\BB.exe
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\bin\BB.pdb
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.csproj.AssemblyReference.cache
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.csproj.SuggestedBindingRedirects.cache
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.Form1.resources
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.Properties.Resources.resources
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.csproj.GenerateResource.cache
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.csproj.CoreCompileInputs.cache
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.exe
+D:\Stm32\hoc_stm32\UART\GIAO_TIEP_DIEU_KHIEN_4TB\BB\BB\obj\Debug\BB.pdb

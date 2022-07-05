@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"timer_input\startup_stm32f103xb.o"
+"timer_input\i2c-lcd.o"
+"timer_input\main.o"
+"timer_input\stm32f1xx_it.o"
+"timer_input\stm32f1xx_hal_msp.o"
+"timer_input\stm32f1xx_hal_gpio_ex.o"
+"timer_input\stm32f1xx_hal_i2c.o"
+"timer_input\stm32f1xx_hal.o"
+"timer_input\stm32f1xx_hal_rcc.o"
+"timer_input\stm32f1xx_hal_rcc_ex.o"
+"timer_input\stm32f1xx_hal_gpio.o"
+"timer_input\stm32f1xx_hal_dma.o"
+"timer_input\stm32f1xx_hal_cortex.o"
+"timer_input\stm32f1xx_hal_pwr.o"
+"timer_input\stm32f1xx_hal_flash.o"
+"timer_input\stm32f1xx_hal_flash_ex.o"
+"timer_input\stm32f1xx_hal_exti.o"
+"timer_input\stm32f1xx_hal_tim.o"
+"timer_input\stm32f1xx_hal_tim_ex.o"
+"timer_input\system_stm32f1xx.o"
+--strict --scatter "timer_input\timer_input.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "timer_input.map" -o timer_input\timer_input.axf

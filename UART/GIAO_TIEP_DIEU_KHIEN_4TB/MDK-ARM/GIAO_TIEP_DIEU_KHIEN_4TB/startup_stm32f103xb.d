@@ -1,0 +1,1 @@
+giao_tiep_dieu_khien_4tb\startup_stm32f103xb.o: startup_stm32f103xb.s

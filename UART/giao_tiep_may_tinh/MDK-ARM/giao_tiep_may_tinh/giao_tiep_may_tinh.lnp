@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"giao_tiep_may_tinh\startup_stm32f103xb.o"
+"giao_tiep_may_tinh\main.o"
+"giao_tiep_may_tinh\stm32f1xx_it.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_msp.o"
+"giao_tiep_may_tinh\i2c-lcd.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_gpio_ex.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_i2c.o"
+"giao_tiep_may_tinh\stm32f1xx_hal.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_rcc.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_rcc_ex.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_gpio.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_dma.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_cortex.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_pwr.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_flash.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_flash_ex.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_exti.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_tim.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_tim_ex.o"
+"giao_tiep_may_tinh\stm32f1xx_hal_uart.o"
+"giao_tiep_may_tinh\system_stm32f1xx.o"
+--strict --scatter "giao_tiep_may_tinh\giao_tiep_may_tinh.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "giao_tiep_may_tinh.map" -o giao_tiep_may_tinh\giao_tiep_may_tinh.axf

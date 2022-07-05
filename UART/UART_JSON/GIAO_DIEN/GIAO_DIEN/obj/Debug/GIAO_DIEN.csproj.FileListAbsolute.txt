@@ -1,0 +1,14 @@
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\bin\Debug\GIAO_DIEN.exe.config
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\bin\Debug\GIAO_DIEN.exe
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\bin\Debug\GIAO_DIEN.pdb
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.csproj.AssemblyReference.cache
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.csproj.SuggestedBindingRedirects.cache
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.Form1.resources
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.Properties.Resources.resources
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.csproj.GenerateResource.cache
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.csproj.CoreCompileInputs.cache
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.exe
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.pdb
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\bin\Debug\Newtonsoft.Json.dll
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\bin\Debug\Newtonsoft.Json.xml
+D:\Stm32\hoc_stm32\UART\UART_JSON\GIAO_DIEN\GIAO_DIEN\obj\Debug\GIAO_DIEN.csproj.CopyComplete

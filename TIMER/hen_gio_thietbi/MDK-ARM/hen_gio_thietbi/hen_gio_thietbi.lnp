@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"hen_gio_thietbi\startup_stm32f103xb.o"
+"hen_gio_thietbi\i2c-lcd.o"
+"hen_gio_thietbi\main.o"
+"hen_gio_thietbi\stm32f1xx_it.o"
+"hen_gio_thietbi\stm32f1xx_hal_msp.o"
+"hen_gio_thietbi\stm32f1xx_hal_gpio_ex.o"
+"hen_gio_thietbi\stm32f1xx_hal_i2c.o"
+"hen_gio_thietbi\stm32f1xx_hal.o"
+"hen_gio_thietbi\stm32f1xx_hal_rcc.o"
+"hen_gio_thietbi\stm32f1xx_hal_rcc_ex.o"
+"hen_gio_thietbi\stm32f1xx_hal_gpio.o"
+"hen_gio_thietbi\stm32f1xx_hal_dma.o"
+"hen_gio_thietbi\stm32f1xx_hal_cortex.o"
+"hen_gio_thietbi\stm32f1xx_hal_pwr.o"
+"hen_gio_thietbi\stm32f1xx_hal_flash.o"
+"hen_gio_thietbi\stm32f1xx_hal_flash_ex.o"
+"hen_gio_thietbi\stm32f1xx_hal_exti.o"
+"hen_gio_thietbi\stm32f1xx_hal_tim.o"
+"hen_gio_thietbi\stm32f1xx_hal_tim_ex.o"
+"hen_gio_thietbi\system_stm32f1xx.o"
+--strict --scatter "hen_gio_thietbi\hen_gio_thietbi.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "hen_gio_thietbi.map" -o hen_gio_thietbi\hen_gio_thietbi.axf

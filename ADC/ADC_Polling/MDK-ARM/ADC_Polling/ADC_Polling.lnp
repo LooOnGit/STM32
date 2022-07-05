@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"adc_polling\startup_stm32f103xb.o"
+"adc_polling\i2c-lcd.o"
+"adc_polling\main.o"
+"adc_polling\stm32f1xx_it.o"
+"adc_polling\stm32f1xx_hal_msp.o"
+"adc_polling\stm32f1xx_hal_gpio_ex.o"
+"adc_polling\stm32f1xx_hal_adc.o"
+"adc_polling\stm32f1xx_hal_adc_ex.o"
+"adc_polling\stm32f1xx_hal.o"
+"adc_polling\stm32f1xx_hal_rcc.o"
+"adc_polling\stm32f1xx_hal_rcc_ex.o"
+"adc_polling\stm32f1xx_hal_gpio.o"
+"adc_polling\stm32f1xx_hal_dma.o"
+"adc_polling\stm32f1xx_hal_cortex.o"
+"adc_polling\stm32f1xx_hal_pwr.o"
+"adc_polling\stm32f1xx_hal_flash.o"
+"adc_polling\stm32f1xx_hal_flash_ex.o"
+"adc_polling\stm32f1xx_hal_exti.o"
+"adc_polling\stm32f1xx_hal_i2c.o"
+"adc_polling\stm32f1xx_hal_tim.o"
+"adc_polling\stm32f1xx_hal_tim_ex.o"
+"adc_polling\system_stm32f1xx.o"
+--strict --scatter "ADC_Polling\ADC_Polling.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_Polling.map" -o ADC_Polling\ADC_Polling.axf

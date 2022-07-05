@@ -1,0 +1,1 @@
+giao_tiep_may_tinh\startup_stm32f103xb.o: startup_stm32f103xb.s

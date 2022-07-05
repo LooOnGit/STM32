@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"polling_interrupt_uart\startup_stm32f103xb.o"
+"polling_interrupt_uart\main.o"
+"polling_interrupt_uart\stm32f1xx_it.o"
+"polling_interrupt_uart\stm32f1xx_hal_msp.o"
+"polling_interrupt_uart\stm32f1xx_hal_gpio_ex.o"
+"polling_interrupt_uart\stm32f1xx_hal_tim.o"
+"polling_interrupt_uart\stm32f1xx_hal_tim_ex.o"
+"polling_interrupt_uart\stm32f1xx_hal_uart.o"
+"polling_interrupt_uart\stm32f1xx_hal.o"
+"polling_interrupt_uart\stm32f1xx_hal_rcc.o"
+"polling_interrupt_uart\stm32f1xx_hal_rcc_ex.o"
+"polling_interrupt_uart\stm32f1xx_hal_gpio.o"
+"polling_interrupt_uart\stm32f1xx_hal_dma.o"
+"polling_interrupt_uart\stm32f1xx_hal_cortex.o"
+"polling_interrupt_uart\stm32f1xx_hal_pwr.o"
+"polling_interrupt_uart\stm32f1xx_hal_flash.o"
+"polling_interrupt_uart\stm32f1xx_hal_flash_ex.o"
+"polling_interrupt_uart\stm32f1xx_hal_exti.o"
+"polling_interrupt_uart\system_stm32f1xx.o"
+--strict --scatter "Polling_Interrupt_UART\Polling_Interrupt_UART.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Polling_Interrupt_UART.map" -o Polling_Interrupt_UART\Polling_Interrupt_UART.axf

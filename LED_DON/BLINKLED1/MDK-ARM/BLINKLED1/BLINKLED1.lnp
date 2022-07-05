@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"blinkled1\startup_stm32f103xb.o"
+"blinkled1\main.o"
+"blinkled1\stm32f1xx_it.o"
+"blinkled1\stm32f1xx_hal_msp.o"
+"blinkled1\stm32f1xx_hal_gpio_ex.o"
+"blinkled1\stm32f1xx_hal_tim.o"
+"blinkled1\stm32f1xx_hal_tim_ex.o"
+"blinkled1\stm32f1xx_hal.o"
+"blinkled1\stm32f1xx_hal_rcc.o"
+"blinkled1\stm32f1xx_hal_rcc_ex.o"
+"blinkled1\stm32f1xx_hal_gpio.o"
+"blinkled1\stm32f1xx_hal_dma.o"
+"blinkled1\stm32f1xx_hal_cortex.o"
+"blinkled1\stm32f1xx_hal_pwr.o"
+"blinkled1\stm32f1xx_hal_flash.o"
+"blinkled1\stm32f1xx_hal_flash_ex.o"
+"blinkled1\stm32f1xx_hal_exti.o"
+"blinkled1\system_stm32f1xx.o"
+--strict --scatter "BLINKLED1\BLINKLED1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BLINKLED1.map" -o BLINKLED1\BLINKLED1.axf

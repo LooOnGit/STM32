@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"seg7\startup_stm32f103xb.o"
+"seg7\main.o"
+"seg7\stm32f1xx_it.o"
+"seg7\stm32f1xx_hal_msp.o"
+"seg7\stm32f1xx_hal_gpio_ex.o"
+"seg7\stm32f1xx_hal_tim.o"
+"seg7\stm32f1xx_hal_tim_ex.o"
+"seg7\stm32f1xx_hal.o"
+"seg7\stm32f1xx_hal_rcc.o"
+"seg7\stm32f1xx_hal_rcc_ex.o"
+"seg7\stm32f1xx_hal_gpio.o"
+"seg7\stm32f1xx_hal_dma.o"
+"seg7\stm32f1xx_hal_cortex.o"
+"seg7\stm32f1xx_hal_pwr.o"
+"seg7\stm32f1xx_hal_flash.o"
+"seg7\stm32f1xx_hal_flash_ex.o"
+"seg7\stm32f1xx_hal_exti.o"
+"seg7\system_stm32f1xx.o"
+"seg7\seg7.o"
+--strict --scatter "Seg7\Seg7.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Seg7.map" -o Seg7\Seg7.axf

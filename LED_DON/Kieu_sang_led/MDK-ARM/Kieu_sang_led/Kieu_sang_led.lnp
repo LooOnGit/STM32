@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"kieu_sang_led\startup_stm32f103xb.o"
+"kieu_sang_led\main.o"
+"kieu_sang_led\stm32f1xx_it.o"
+"kieu_sang_led\stm32f1xx_hal_msp.o"
+"kieu_sang_led\stm32f1xx_hal_gpio_ex.o"
+"kieu_sang_led\stm32f1xx_hal_tim.o"
+"kieu_sang_led\stm32f1xx_hal_tim_ex.o"
+"kieu_sang_led\stm32f1xx_hal.o"
+"kieu_sang_led\stm32f1xx_hal_rcc.o"
+"kieu_sang_led\stm32f1xx_hal_rcc_ex.o"
+"kieu_sang_led\stm32f1xx_hal_gpio.o"
+"kieu_sang_led\stm32f1xx_hal_dma.o"
+"kieu_sang_led\stm32f1xx_hal_cortex.o"
+"kieu_sang_led\stm32f1xx_hal_pwr.o"
+"kieu_sang_led\stm32f1xx_hal_flash.o"
+"kieu_sang_led\stm32f1xx_hal_flash_ex.o"
+"kieu_sang_led\stm32f1xx_hal_exti.o"
+"kieu_sang_led\system_stm32f1xx.o"
+"kieu_sang_led\sang_dan.o"
+--strict --scatter "Kieu_sang_led\Kieu_sang_led.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Kieu_sang_led.map" -o Kieu_sang_led\Kieu_sang_led.axf

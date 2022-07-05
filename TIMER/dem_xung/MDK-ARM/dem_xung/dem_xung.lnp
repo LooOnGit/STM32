@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"dem_xung\startup_stm32f103xb.o"
+"dem_xung\i2c-lcd.o"
+"dem_xung\main.o"
+"dem_xung\stm32f1xx_it.o"
+"dem_xung\stm32f1xx_hal_msp.o"
+"dem_xung\stm32f1xx_hal_gpio_ex.o"
+"dem_xung\stm32f1xx_hal_i2c.o"
+"dem_xung\stm32f1xx_hal.o"
+"dem_xung\stm32f1xx_hal_rcc.o"
+"dem_xung\stm32f1xx_hal_rcc_ex.o"
+"dem_xung\stm32f1xx_hal_gpio.o"
+"dem_xung\stm32f1xx_hal_dma.o"
+"dem_xung\stm32f1xx_hal_cortex.o"
+"dem_xung\stm32f1xx_hal_pwr.o"
+"dem_xung\stm32f1xx_hal_flash.o"
+"dem_xung\stm32f1xx_hal_flash_ex.o"
+"dem_xung\stm32f1xx_hal_exti.o"
+"dem_xung\stm32f1xx_hal_tim.o"
+"dem_xung\stm32f1xx_hal_tim_ex.o"
+"dem_xung\system_stm32f1xx.o"
+--strict --scatter "dem_xung\dem_xung.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "dem_xung.map" -o dem_xung\dem_xung.axf

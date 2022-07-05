@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"doc_adc_pp_doc_hoi_vong_thu_cong\startup_stm32f103xb.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\main.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_it.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_msp.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\i2c-lcd.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_gpio_ex.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_adc.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_adc_ex.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_rcc.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_rcc_ex.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_gpio.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_dma.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_cortex.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_pwr.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_flash.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_flash_ex.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_exti.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_i2c.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_tim.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\stm32f1xx_hal_tim_ex.o"
+"doc_adc_pp_doc_hoi_vong_thu_cong\system_stm32f1xx.o"
+--strict --scatter "DOC_ADC_pp_DOC_HOI_VONG_THU_CONG\DOC_ADC_pp_DOC_HOI_VONG_THU_CONG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DOC_ADC_pp_DOC_HOI_VONG_THU_CONG.map" -o DOC_ADC_pp_DOC_HOI_VONG_THU_CONG\DOC_ADC_pp_DOC_HOI_VONG_THU_CONG.axf

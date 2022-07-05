@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"quang_tro_adc\startup_stm32f103xb.o"
+"quang_tro_adc\main.o"
+"quang_tro_adc\stm32f1xx_it.o"
+"quang_tro_adc\stm32f1xx_hal_msp.o"
+"quang_tro_adc\i2c-lcd.o"
+"quang_tro_adc\stm32f1xx_hal_gpio_ex.o"
+"quang_tro_adc\stm32f1xx_hal_adc.o"
+"quang_tro_adc\stm32f1xx_hal_adc_ex.o"
+"quang_tro_adc\stm32f1xx_hal.o"
+"quang_tro_adc\stm32f1xx_hal_rcc.o"
+"quang_tro_adc\stm32f1xx_hal_rcc_ex.o"
+"quang_tro_adc\stm32f1xx_hal_gpio.o"
+"quang_tro_adc\stm32f1xx_hal_dma.o"
+"quang_tro_adc\stm32f1xx_hal_cortex.o"
+"quang_tro_adc\stm32f1xx_hal_pwr.o"
+"quang_tro_adc\stm32f1xx_hal_flash.o"
+"quang_tro_adc\stm32f1xx_hal_flash_ex.o"
+"quang_tro_adc\stm32f1xx_hal_exti.o"
+"quang_tro_adc\stm32f1xx_hal_i2c.o"
+"quang_tro_adc\stm32f1xx_hal_tim.o"
+"quang_tro_adc\stm32f1xx_hal_tim_ex.o"
+"quang_tro_adc\system_stm32f1xx.o"
+--strict --scatter "quang_tro_adc\quang_tro_adc.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "quang_tro_adc.map" -o quang_tro_adc\quang_tro_adc.axf

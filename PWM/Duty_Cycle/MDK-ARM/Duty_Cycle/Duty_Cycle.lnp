@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"duty_cycle\startup_stm32f103xb.o"
+"duty_cycle\main.o"
+"duty_cycle\gpio.o"
+"duty_cycle\tim.o"
+"duty_cycle\stm32f1xx_it.o"
+"duty_cycle\stm32f1xx_hal_msp.o"
+"duty_cycle\stm32f1xx_hal_gpio_ex.o"
+"duty_cycle\stm32f1xx_hal_tim.o"
+"duty_cycle\stm32f1xx_hal_tim_ex.o"
+"duty_cycle\stm32f1xx_hal.o"
+"duty_cycle\stm32f1xx_hal_rcc.o"
+"duty_cycle\stm32f1xx_hal_rcc_ex.o"
+"duty_cycle\stm32f1xx_hal_gpio.o"
+"duty_cycle\stm32f1xx_hal_dma.o"
+"duty_cycle\stm32f1xx_hal_cortex.o"
+"duty_cycle\stm32f1xx_hal_pwr.o"
+"duty_cycle\stm32f1xx_hal_flash.o"
+"duty_cycle\stm32f1xx_hal_flash_ex.o"
+"duty_cycle\stm32f1xx_hal_exti.o"
+"duty_cycle\system_stm32f1xx.o"
+--strict --scatter "Duty_Cycle\Duty_Cycle.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Duty_Cycle.map" -o Duty_Cycle\Duty_Cycle.axf

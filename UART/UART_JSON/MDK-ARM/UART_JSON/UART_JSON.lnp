@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"uart_json\startup_stm32f103xb.o"
+"uart_json\cjson.o"
+"uart_json\main.o"
+"uart_json\stm32f1xx_it.o"
+"uart_json\stm32f1xx_hal_msp.o"
+"uart_json\stm32f1xx_hal_gpio_ex.o"
+"uart_json\stm32f1xx_hal_adc.o"
+"uart_json\stm32f1xx_hal_adc_ex.o"
+"uart_json\stm32f1xx_hal.o"
+"uart_json\stm32f1xx_hal_rcc.o"
+"uart_json\stm32f1xx_hal_rcc_ex.o"
+"uart_json\stm32f1xx_hal_gpio.o"
+"uart_json\stm32f1xx_hal_dma.o"
+"uart_json\stm32f1xx_hal_cortex.o"
+"uart_json\stm32f1xx_hal_pwr.o"
+"uart_json\stm32f1xx_hal_flash.o"
+"uart_json\stm32f1xx_hal_flash_ex.o"
+"uart_json\stm32f1xx_hal_exti.o"
+"uart_json\stm32f1xx_hal_tim.o"
+"uart_json\stm32f1xx_hal_tim_ex.o"
+"uart_json\stm32f1xx_hal_uart.o"
+"uart_json\system_stm32f1xx.o"
+--strict --scatter "UART_JSON\UART_JSON.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UART_JSON.map" -o UART_JSON\UART_JSON.axf

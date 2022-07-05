@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"giao_tiep_dieu_khien_4tb\startup_stm32f103xb.o"
+"giao_tiep_dieu_khien_4tb\main.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_it.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_msp.o"
+"giao_tiep_dieu_khien_4tb\i2c-lcd.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_gpio_ex.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_i2c.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_rcc.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_rcc_ex.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_gpio.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_dma.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_cortex.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_pwr.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_flash.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_flash_ex.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_exti.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_tim.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_tim_ex.o"
+"giao_tiep_dieu_khien_4tb\stm32f1xx_hal_uart.o"
+"giao_tiep_dieu_khien_4tb\system_stm32f1xx.o"
+--strict --scatter "GIAO_TIEP_DIEU_KHIEN_4TB\GIAO_TIEP_DIEU_KHIEN_4TB.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GIAO_TIEP_DIEU_KHIEN_4TB.map" -o GIAO_TIEP_DIEU_KHIEN_4TB\GIAO_TIEP_DIEU_KHIEN_4TB.axf

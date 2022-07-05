@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"dem_san_pham\startup_stm32f103xb.o"
+"dem_san_pham\main.o"
+"dem_san_pham\gpio.o"
+"dem_san_pham\i2c.o"
+"dem_san_pham\stm32f1xx_it.o"
+"dem_san_pham\stm32f1xx_hal_msp.o"
+"dem_san_pham\i2c-lcd.o"
+"dem_san_pham\stm32f1xx_hal_gpio_ex.o"
+"dem_san_pham\stm32f1xx_hal_i2c.o"
+"dem_san_pham\stm32f1xx_hal.o"
+"dem_san_pham\stm32f1xx_hal_rcc.o"
+"dem_san_pham\stm32f1xx_hal_rcc_ex.o"
+"dem_san_pham\stm32f1xx_hal_gpio.o"
+"dem_san_pham\stm32f1xx_hal_dma.o"
+"dem_san_pham\stm32f1xx_hal_cortex.o"
+"dem_san_pham\stm32f1xx_hal_pwr.o"
+"dem_san_pham\stm32f1xx_hal_flash.o"
+"dem_san_pham\stm32f1xx_hal_flash_ex.o"
+"dem_san_pham\stm32f1xx_hal_exti.o"
+"dem_san_pham\stm32f1xx_hal_tim.o"
+"dem_san_pham\stm32f1xx_hal_tim_ex.o"
+"dem_san_pham\system_stm32f1xx.o"
+--strict --scatter "dem_san_pham\dem_san_pham.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "dem_san_pham.map" -o dem_san_pham\dem_san_pham.axf

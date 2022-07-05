@@ -1,0 +1,10 @@
+uart_json\cjson.o: ..\Core\Src\cJSON.c
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+uart_json\cjson.o: ../Core/Inc/cJSON.h
+uart_json\cjson.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
