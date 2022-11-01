@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"input7d\startup_stm32f103xb.o"
+"input7d\main.o"
+"input7d\stm32f1xx_it.o"
+"input7d\stm32f1xx_hal_msp.o"
+"input7d\stm32f1xx_hal_gpio_ex.o"
+"input7d\stm32f1xx_hal_tim.o"
+"input7d\stm32f1xx_hal_tim_ex.o"
+"input7d\stm32f1xx_hal.o"
+"input7d\stm32f1xx_hal_rcc.o"
+"input7d\stm32f1xx_hal_rcc_ex.o"
+"input7d\stm32f1xx_hal_gpio.o"
+"input7d\stm32f1xx_hal_dma.o"
+"input7d\stm32f1xx_hal_cortex.o"
+"input7d\stm32f1xx_hal_pwr.o"
+"input7d\stm32f1xx_hal_flash.o"
+"input7d\stm32f1xx_hal_flash_ex.o"
+"input7d\stm32f1xx_hal_exti.o"
+"input7d\system_stm32f1xx.o"
+--strict --scatter "Input7d\Input7d.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Input7d.map" -o Input7d\Input7d.axf

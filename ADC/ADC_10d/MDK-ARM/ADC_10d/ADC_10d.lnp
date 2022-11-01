@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"adc_10d\startup_stm32f103xb.o"
+"adc_10d\main.o"
+"adc_10d\stm32f1xx_it.o"
+"adc_10d\stm32f1xx_hal_msp.o"
+"adc_10d\stm32f1xx_hal_gpio_ex.o"
+"adc_10d\stm32f1xx_hal_adc.o"
+"adc_10d\stm32f1xx_hal_adc_ex.o"
+"adc_10d\stm32f1xx_hal.o"
+"adc_10d\stm32f1xx_hal_rcc.o"
+"adc_10d\stm32f1xx_hal_rcc_ex.o"
+"adc_10d\stm32f1xx_hal_gpio.o"
+"adc_10d\stm32f1xx_hal_dma.o"
+"adc_10d\stm32f1xx_hal_cortex.o"
+"adc_10d\stm32f1xx_hal_pwr.o"
+"adc_10d\stm32f1xx_hal_flash.o"
+"adc_10d\stm32f1xx_hal_flash_ex.o"
+"adc_10d\stm32f1xx_hal_exti.o"
+"adc_10d\stm32f1xx_hal_tim.o"
+"adc_10d\stm32f1xx_hal_tim_ex.o"
+"adc_10d\stm32f1xx_hal_uart.o"
+"adc_10d\system_stm32f1xx.o"
+--strict --scatter "ADC_10d\ADC_10d.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_10d.map" -o ADC_10d\ADC_10d.axf

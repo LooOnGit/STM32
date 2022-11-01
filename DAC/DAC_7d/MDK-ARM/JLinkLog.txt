@@ -1,0 +1,71 @@
+T4350 000:003.699   SEGGER J-Link V6.82b Log File
+T4350 000:003.849   DLL Compiled: Jul 23 2020 16:43:44
+T4350 000:003.853   Logging started @ 2022-09-27 00:49
+T4350 000:003.856 - 3.858ms
+T4350 000:003.864 JLINK_SetWarnOutHandler(...)
+T4350 000:003.869 - 0.006ms
+T4350 000:003.873 JLINK_OpenEx(...)
+T4350 000:005.189   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+T4350 000:007.395   Hardware: V8.00
+T4350 000:007.408   S/N: 1631096674
+T4350 000:007.413   OEM: SEGGER
+T4350 000:007.437   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+T4350 000:009.047   TELNET listener socket opened on port 19021
+T4350 000:009.119   WEBSRV Starting webserver
+T4350 000:009.234   WEBSRV Webserver running on local port 19081
+T4350 000:009.242 - 5.370ms returns "O.K."
+T4350 000:009.256 JLINK_GetEmuCaps()
+T4350 000:009.260 - 0.006ms returns 0xB9FF7BBF
+T4350 000:009.268 JLINK_TIF_GetAvailable(...)
+T4350 000:009.416 - 0.152ms
+T4350 000:009.425 JLINK_SetErrorOutHandler(...)
+T4350 000:009.429 - 0.005ms
+T4350 000:009.448 JLINK_ExecCommand("ProjectFile = "D:\HOC_ARM\DAC\DAC_7d\MDK-ARM\JLinkSettings.ini"", ...). 
+T4350 000:016.612   Ref file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T4350 000:016.758   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T4350 000:017.423   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T4350 000:044.407 - 34.984ms returns 0x00
+T4350 000:046.136 JLINK_ExecCommand("Device = STM32F103RC", ...). 
+T4350 000:047.839   Device "STM32F103RC" selected.
+T4350 000:048.165 - 2.040ms returns 0x00
+T4350 000:048.196 JLINK_GetHardwareVersion()
+T4350 000:048.200 - 0.005ms returns 80000
+T4350 000:048.212 JLINK_GetDLLVersion()
+T4350 000:048.216 - 0.005ms returns 68202
+T4350 000:048.220 JLINK_GetOEMString(...)
+T4350 000:048.225 JLINK_GetFirmwareString(...)
+T4350 000:048.228 - 0.005ms
+T4350 000:052.261 JLINK_GetDLLVersion()
+T4350 000:052.274 - 0.015ms returns 68202
+T4350 000:052.280 JLINK_GetCompileDateTime()
+T4350 000:052.283 - 0.005ms
+T4350 000:053.478 JLINK_GetFirmwareString(...)
+T4350 000:053.486 - 0.010ms
+T4350 000:054.953 JLINK_GetHardwareVersion()
+T4350 000:054.963 - 0.012ms returns 80000
+T4350 000:056.295 JLINK_GetSN()
+T4350 000:056.306 - 0.013ms returns 1631096674
+T4350 000:057.829 JLINK_GetOEMString(...)
+T4350 000:060.508 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T4350 000:061.502 - 1.025ms returns 0x00
+T4350 000:061.538 JLINK_HasError()
+T4350 000:061.558 JLINK_SetSpeed(5000)
+T4350 000:061.681 - 0.153ms
+T4350 000:061.717 JLINK_GetIdData(pIdData)
+T4350 000:064.229   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T4350 000:065.910   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T4350 000:118.996   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T4350 000:119.327   
+  ***** Error: 
+T4350 000:119.337   STM32: Connecting to CPU via connect under reset failed.
+T4350 000:235.232   Could not measure total IR len. TDO is constant high.
+T4350 000:236.950   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T4350 000:290.667   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFE11
+T4350 000:291.013   
+  ***** Error: 
+T4350 000:291.022   STM32: Connecting to CPU via connect under reset failed.
+T4350 000:342.221 - 280.514ms
+T4350 001:492.882 JLINK_Close()
+T4350 001:499.121 - 6.255ms
+T4350 001:499.140   
+T4350 001:499.143   Closed

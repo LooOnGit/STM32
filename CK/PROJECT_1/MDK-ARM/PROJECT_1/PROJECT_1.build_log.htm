@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Hoa Tran, IUH, LIC=IK1BF-6B4FM-TGZ7T-RT8IJ-9RM73-S5XMA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\HOC_ARM\CK\PROJECT_1\MDK-ARM\PROJECT_1.uvprojx
+Project File Date:  10/24/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'PROJECT_1'
+compiling main.c...
+../Core/Src/main.c(78): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(RS_GPIO_Port,RS_Pin,rs);
+../Core/Src/main.c(79): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(RW_GPIO_Port,RW_Pin,0);
+../Core/Src/main.c(80): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(EN_GPIO_Port,EN_Pin,1);
+../Core/Src/main.c(83): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D7_GPIO_Port,D7_Pin,  ((data>>7)&0x01));
+../Core/Src/main.c(84): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D6_GPIO_Port,D6_Pin,  ((data>>6)&0x01));
+../Core/Src/main.c(85): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D5_GPIO_Port,D5_Pin,  ((data>>5)&0x01));
+../Core/Src/main.c(86): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D4_GPIO_Port,D4_Pin,  ((data>>4)&0x01));
+../Core/Src/main.c(87): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D3_GPIO_Port,D3_Pin,  ((data>>3)&0x01));
+../Core/Src/main.c(88): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D2_GPIO_Port,D2_Pin,  ((data>>2)&0x01));
+../Core/Src/main.c(89): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D1_GPIO_Port,D1_Pin,  ((data>>1)&0x01));
+../Core/Src/main.c(90): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(D0_GPIO_Port,D0_Pin,  ((data>>0)&0x01));
+../Core/Src/main.c(95): warning:  #188-D: enumerated type mixed with another type
+  	 HAL_GPIO_WritePin(EN_GPIO_Port,EN_Pin,0);
+../Core/Src/main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=9178 RO-data=294 RW-data=40 ZI-data=1752  
+FromELF: creating hex file...
+"PROJECT_1\PROJECT_1.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_PROJECT_1
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

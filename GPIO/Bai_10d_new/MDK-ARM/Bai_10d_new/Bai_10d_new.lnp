@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"bai_10d_new\startup_stm32f103xb.o"
+"bai_10d_new\main.o"
+"bai_10d_new\stm32f1xx_it.o"
+"bai_10d_new\stm32f1xx_hal_msp.o"
+"bai_10d_new\stm32f1xx_hal_gpio_ex.o"
+"bai_10d_new\stm32f1xx_hal_tim.o"
+"bai_10d_new\stm32f1xx_hal_tim_ex.o"
+"bai_10d_new\stm32f1xx_hal.o"
+"bai_10d_new\stm32f1xx_hal_rcc.o"
+"bai_10d_new\stm32f1xx_hal_rcc_ex.o"
+"bai_10d_new\stm32f1xx_hal_gpio.o"
+"bai_10d_new\stm32f1xx_hal_dma.o"
+"bai_10d_new\stm32f1xx_hal_cortex.o"
+"bai_10d_new\stm32f1xx_hal_pwr.o"
+"bai_10d_new\stm32f1xx_hal_flash.o"
+"bai_10d_new\stm32f1xx_hal_flash_ex.o"
+"bai_10d_new\stm32f1xx_hal_exti.o"
+"bai_10d_new\system_stm32f1xx.o"
+--strict --scatter "Bai_10d_new\Bai_10d_new.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai_10d_new.map" -o Bai_10d_new\Bai_10d_new.axf

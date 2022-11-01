@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"input10d_b\startup_stm32f103xb.o"
+"input10d_b\main.o"
+"input10d_b\stm32f1xx_it.o"
+"input10d_b\stm32f1xx_hal_msp.o"
+"input10d_b\stm32f1xx_hal_gpio_ex.o"
+"input10d_b\stm32f1xx_hal_tim.o"
+"input10d_b\stm32f1xx_hal_tim_ex.o"
+"input10d_b\stm32f1xx_hal.o"
+"input10d_b\stm32f1xx_hal_rcc.o"
+"input10d_b\stm32f1xx_hal_rcc_ex.o"
+"input10d_b\stm32f1xx_hal_gpio.o"
+"input10d_b\stm32f1xx_hal_dma.o"
+"input10d_b\stm32f1xx_hal_cortex.o"
+"input10d_b\stm32f1xx_hal_pwr.o"
+"input10d_b\stm32f1xx_hal_flash.o"
+"input10d_b\stm32f1xx_hal_flash_ex.o"
+"input10d_b\stm32f1xx_hal_exti.o"
+"input10d_b\system_stm32f1xx.o"
+--strict --scatter "Input10d_b\Input10d_b.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Input10d_b.map" -o Input10d_b\Input10d_b.axf

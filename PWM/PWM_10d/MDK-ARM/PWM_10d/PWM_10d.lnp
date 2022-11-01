@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"pwm_10d\startup_stm32f103xb.o"
+"pwm_10d\main.o"
+"pwm_10d\stm32f1xx_it.o"
+"pwm_10d\stm32f1xx_hal_msp.o"
+"pwm_10d\stm32f1xx_hal_gpio_ex.o"
+"pwm_10d\stm32f1xx_hal_adc.o"
+"pwm_10d\stm32f1xx_hal_adc_ex.o"
+"pwm_10d\stm32f1xx_hal.o"
+"pwm_10d\stm32f1xx_hal_rcc.o"
+"pwm_10d\stm32f1xx_hal_rcc_ex.o"
+"pwm_10d\stm32f1xx_hal_gpio.o"
+"pwm_10d\stm32f1xx_hal_dma.o"
+"pwm_10d\stm32f1xx_hal_cortex.o"
+"pwm_10d\stm32f1xx_hal_pwr.o"
+"pwm_10d\stm32f1xx_hal_flash.o"
+"pwm_10d\stm32f1xx_hal_flash_ex.o"
+"pwm_10d\stm32f1xx_hal_exti.o"
+"pwm_10d\stm32f1xx_hal_tim.o"
+"pwm_10d\stm32f1xx_hal_tim_ex.o"
+"pwm_10d\system_stm32f1xx.o"
+--strict --scatter "PWM_10d\PWM_10d.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PWM_10d.map" -o PWM_10d\PWM_10d.axf

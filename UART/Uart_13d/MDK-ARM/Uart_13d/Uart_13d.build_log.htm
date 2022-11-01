@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Hoa Tran, IUH, LIC=IK1BF-6B4FM-TGZ7T-RT8IJ-9RM73-S5XMA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\HOC_ARM\UART\Uart_13d\MDK-ARM\Uart_13d.uvprojx
+Project File Date:  09/06/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Uart_13d'
+compiling main.c...
+../Core/Src/main.c(72): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(RS_GPIO_Port, RS_Pin, rs);
+../Core/Src/main.c(73): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(RW_GPIO_Port, RW_Pin, 0);
+../Core/Src/main.c(74): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, 1);
+../Core/Src/main.c(76): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(D7_GPIO_Port, D7_Pin, ((data>>3)&0x01));
+../Core/Src/main.c(77): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(D6_GPIO_Port, D6_Pin, ((data>>2)&0x01));
+../Core/Src/main.c(78): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(D5_GPIO_Port, D5_Pin, ((data>>1)&0x01));
+../Core/Src/main.c(79): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(D4_GPIO_Port, D4_Pin, ((data>>0)&0x01));
+../Core/Src/main.c(86): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, 0);
+../Core/Src/main.c(157): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(RS_GPIO_Port, RS_Pin, 0);
+../Core/Src/main.c(158): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(RW_GPIO_Port, RW_Pin, 1);
+../Core/Src/main.c(161): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, 1);
+../Core/Src/main.c(166): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, 0);
+../Core/Src/main.c(169): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, 1);
+../Core/Src/main.c(172): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(EN_GPIO_Port, EN_Pin, 0);
+../Core/Src/main.c(175): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(RW_GPIO_Port, RW_Pin, 0);
+../Core/Src/main.c(269): warning:  #223-D: function "HAL_ADC_Start" declared implicitly
+  					HAL_ADC_Start(&hadc1);
+../Core/Src/main.c(269): error:  #20: identifier "hadc1" is undefined
+  					HAL_ADC_Start(&hadc1);
+../Core/Src/main.c(270): warning:  #223-D: function "HAL_ADC_PollForConversion" declared implicitly
+  					HAL_ADC_PollForConversion(&hadc1, 10);
+../Core/Src/main.c(271): error:  #20: identifier "adc_value" is undefined
+  					adc_value = HAL_ADC_GetValue(&hadc1);
+../Core/Src/main.c(271): warning:  #223-D: function "HAL_ADC_GetValue" declared implicitly
+  					adc_value = HAL_ADC_GetValue(&hadc1);
+../Core/Src/main.c(272): error:  #20: identifier "v" is undefined
+  					v = adc_value*3.3/4096;
+../Core/Src/main.c(288): error:  #65: expected a ";"
+  {
+../Core/Src/main.c(310): warning:  #12-D: parsing restarts here after previous syntax error
+                                |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+../Core/Src/main.c(311): warning:  #111-D: statement is unreachable
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+../Core/Src/main.c(311): error:  #20: identifier "RCC_ClkInitStruct" is undefined
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+../Core/Src/main.c: 20 warnings, 5 errors
+"Uart_13d\Uart_13d.axf" - 5 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Uart_13d
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

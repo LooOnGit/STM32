@@ -1,0 +1,17 @@
+16:08:17 **** Incremental Build of configuration Debug for project TIMER_7d ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TIMER_7d.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\HOC_ARM\TIMER\TIMER_7d\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TIMER_7d.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TIMER_7d.elf
+ 
+arm-none-eabi-size   TIMER_7d.elf 
+arm-none-eabi-objdump -h -S  TIMER_7d.elf  > "TIMER_7d.list"
+arm-none-eabi-objcopy  -O ihex  TIMER_7d.elf  "TIMER_7d.hex"
+   text	   data	    bss	    dec	    hex	filename
+   7120	     20	   1644	   8784	   2250	TIMER_7d.elf
+Finished building: default.size.stdout
+ 
+Finished building: TIMER_7d.hex
+ 
+Finished building: TIMER_7d.list
+ 

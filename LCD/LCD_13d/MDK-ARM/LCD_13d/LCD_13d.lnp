@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"lcd_13d\startup_stm32f103xb.o"
+"lcd_13d\main.o"
+"lcd_13d\stm32f1xx_it.o"
+"lcd_13d\stm32f1xx_hal_msp.o"
+"lcd_13d\stm32f1xx_hal_gpio_ex.o"
+"lcd_13d\stm32f1xx_hal_tim.o"
+"lcd_13d\stm32f1xx_hal_tim_ex.o"
+"lcd_13d\stm32f1xx_hal.o"
+"lcd_13d\stm32f1xx_hal_rcc.o"
+"lcd_13d\stm32f1xx_hal_rcc_ex.o"
+"lcd_13d\stm32f1xx_hal_gpio.o"
+"lcd_13d\stm32f1xx_hal_dma.o"
+"lcd_13d\stm32f1xx_hal_cortex.o"
+"lcd_13d\stm32f1xx_hal_pwr.o"
+"lcd_13d\stm32f1xx_hal_flash.o"
+"lcd_13d\stm32f1xx_hal_flash_ex.o"
+"lcd_13d\stm32f1xx_hal_exti.o"
+"lcd_13d\system_stm32f1xx.o"
+--strict --scatter "LCD_13d\LCD_13d.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LCD_13d.map" -o LCD_13d\LCD_13d.axf
